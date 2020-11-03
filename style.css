@@ -1,0 +1,96 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+
+/***************         ******************************/
+html, body, h1, h2, h3, h4, h5, p, ul { 
+  margin: 0; 
+  padding: 0; 
+  } 
+html { 
+  font-size: 1em; 
+  } 
+body { 
+  font-family: 'Montserrat', sans-serif;
+  background: #080b1e;
+  color: white;
+  font-size: 14px;
+  } 
+a img, :link img, :visited img { 
+  border: 0; 
+  }
+
+a{
+  color: white;
+  text-decoration: none;
+}
+div, header, section, p, a, img, body, html, input, textarea, footer, button{ 
+  -webkit-box-sizing: border-box; 
+          box-sizing: border-box;
+}
+
+p{
+  font-size: 13px;
+}
+
+img{
+  max-width: 100%;
+}
+*:focus{
+  outline: none;
+}
+.container.no-padding {
+  padding: 0;
+}
+
+
+
+
+
+
+/*******************************      MEDIA       ***********************/
+
+/*******************************      LG       ***********************/
+
+@media screen and (max-width: 1200px){
+  .container {
+    width: 992px;
+}
+}
+
+
+/*******************************      MD       ***********************/
+
+@media screen and (max-width: 992px){
+  .container {
+    width: 768px;
+}
+
+
+}
+
+/*******************************      SM       ***********************/
+
+@media screen and (max-width: 768px){
+  .container {
+    width: 600px;
+}
+
+}
+
+/*******************************      XS       ***********************/
+
+@media screen and (max-width: 600px){
+  .container {
+    width: 420px;
+}
+
+}
+
+
+@media screen and (max-width: 421px){
+  .container {
+    width: 100%;
+}
+
+}
